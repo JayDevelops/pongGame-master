@@ -8,7 +8,6 @@
 
 
 
-//YOOOOOO
 import SpriteKit
 import GameplayKit
 
@@ -47,7 +46,7 @@ class GameScene: SKScene {
         border.friction = 0
         border.restitution = 1
         
-        //Now add that border to the view so the ball can bounce!
+        //Now add that border to the view so the ball can bounce! (Self refers to the SKS VC)
         self.physicsBody = border
         
         //Start the game here
@@ -69,6 +68,9 @@ class GameScene: SKScene {
         ball.physicsBody?.applyImpulse(CGVector(dx: 10, dy: 10))
     }
     
+    func endGame() {
+        
+    }
     
     // MARK: Add The Score and make the ball go different according to who won!
     func addScore(playerWhoWon : SKSpriteNode) {
@@ -187,7 +189,7 @@ class GameScene: SKScene {
             break
             
         case .hard:
-             enemy.run(SKAction.moveTo(x: ball.position.x, duration: 0.7))
+             enemy.run(SKAction.moveTo(x: ball.position.x, duration: 0.6))
             break
             
         case .player2:
