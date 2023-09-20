@@ -69,6 +69,8 @@
 		5A1CFB4B21044C2700ECF83F /* Pong2 */ = {
 			isa = PBXGroup;
 			children = (
+				5A1CFB5921044C2700ECF83F /* Assets.xcassets */,
+				5A1CFB5E21044C2700ECF83F /* Info.plist */,
 				5A1CFB4C21044C2700ECF83F /* AppDelegate.swift */,
 				5A1CFB5621044C2700ECF83F /* Main.storyboard */,
 				5A1CFB5B21044C2700ECF83F /* LaunchScreen.storyboard */,
@@ -92,9 +94,7 @@
 		5A2CED8D231C4EC3000AA5BE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5A1CFB5E21044C2700ECF83F /* Info.plist */,
 				5A0B5BDC2105227C006C1EFD /* Cornerstone.ttf */,
-				5A1CFB5921044C2700ECF83F /* Assets.xcassets */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -335,7 +335,7 @@
 				DEVELOPMENT_TEAM = J997N75QY2;
 				INFOPLIST_FILE = Pong2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.jesusperez.Pong2;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.jesusperez.pong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -350,7 +350,7 @@
 				DEVELOPMENT_TEAM = J997N75QY2;
 				INFOPLIST_FILE = Pong2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.jesusperez.Pong2;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.jesusperez.pong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
